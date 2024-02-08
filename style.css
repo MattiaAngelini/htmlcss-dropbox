@@ -7,16 +7,18 @@
     box-sizing: border-box;
 }
 
-body {font-family: "Open Sans", sans-serif;
-      font-weight: 300;
-      font-style: normal;}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 /*-------------------
       BUTTONS
 -------------------*/
 
 .button_big {
-    padding: 8px 30px;
+    padding: 10px;
     border: none;
 }
 
@@ -32,7 +34,7 @@ body {font-family: "Open Sans", sans-serif;
 }
   
 .button_2_blue {
-    background-color: #0061ff:
+    background-color: #0061ff;
     color: white;
     border: none;
 }
@@ -70,7 +72,7 @@ body {font-family: "Open Sans", sans-serif;
 }
 
 .col_30 {
-    width: 30%;
+    width: 30%; 
 }
 
 .col_70 {
@@ -89,6 +91,9 @@ body {font-family: "Open Sans", sans-serif;
               height: 80%;           
 }
 
+.relative_position {
+    position: relative;
+}
 /*-------------------
        HEADER
 -------------------*/
@@ -123,7 +128,6 @@ header img {
     SECTION 1
 -------------------*/
 
-
  #Title_page {
     font-size: 60px;
     font-weight: 800;
@@ -131,4 +135,17 @@ header img {
     padding:30px 0;
  }
 
+ .section_1 .col_30 *{
+   margin-bottom: 30px;
+}
+
+.section_1 .col_30 i {
+    font-size: 34px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.section_1 .relative_position {
+     top: 40px;
+}
  
