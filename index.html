@@ -1,146 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-<!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!--GOOGLE FONT-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Dropbox</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--GOOGLE FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Dropbox</title>
 </head>
+
 <body>
 
-<!-----------------------HEADER---------------------->
-    
-    <header>
+  <!-- HEADER -->
 
-<!-----------------LEFT FUNCTIONS HEADER------------->
+  <header>
+    <!-- LEFT FUNCTIONS HEADER -->
+    <nav class="header_left">
+      <div class="logo_header"><img src="./img/logo-small.png" alt="logo"></div>
+      <ul>
+        <li>Perchè Dropbox</li>
+        <li>Funzioni</li>
+        <li>Piani e Prezzi</li>
+      </ul>
+    </nav>
 
-        <nav class="header_left">
-            <div class="logo_header"><img src="./img/logo-small.png" alt="logo"></div>
-            <ul>
-                <li>Perchè Dropbox</li>
-                <li>Funzioni</li>
-                <li>Piani e Prezzi</li>
-            </ul>
-        </nav>
+    <!-- RIGHT FUNCTIONS HEADER -->
+    <nav class="header_right">
+      <ul>
+        <li>Supporto</li>
+        <li>Contatta l'ufficio vendite</li>
+        <li>Accedi</li>
+      </ul>
+      <button class="button_small button_1_blue">Inizia</button>
+    </nav>
+  </header>
 
-<!----------------RIGHT FUNCTIONS HEADER------------->
-        <nav class="header_right">
-            <ul>
-                <li>Supporto</li>
-                <li>Contatta l'ufficio vendite</li>
-                <li>Accedi</li>
-            </ul>
-            <button class="button_small button_1_blue">Inizia</button>
-        </nav>
-    </header>
-   
-<!-----------------------MAIN------------------------->
-   
-    <main>
+  <!-- MAIN -->
 
-<!-----------------------SECTION ONE------------------>
-       
-      <section class="section_1 blue_wrap">
-        <div class="container_big">       
-            <div class="container_flex column_flex ">
+  <main>
 
-                <h1 id="Title_page">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+    <!-- SECTION ONE -->
 
-                <div class="container_flex  relative_position">             
-                    
-                    <div class="col_30">                      
-                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero et cum perspiciatis asperiores veritatis aspernatur, esse nobis ea facilis distinctio id tenetur dignissimos dolore pariatur exercitationem praesentium aperiam voluptatibus facere? </div>                      
-                        <button class="button_big button_1_blue">  Inizia la tua prova gratuita </button>                      
-                        <div>Annulla in qualsiasi momento</div>                       
-                        <div class=""><i class="fa-solid fa-arrow-down"></i></div>                   
-                    </div>
-                                 
-                    <div class="col_70">
-                       <div class="relative_position">
-                        <img class="resize_pics" src="./img/jumbo.png" alt="home_pic">
-                       </div>                                       
-                    </div>
-               
-                </div>
+    <section class="section_1 blue_wrap">
+      <div class="container_big">
+        <div class="container_flex column_flex ">
+
+          <h1 id="Title_page">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+
+          <div class="container_flex  relative_position">
+
+            <div class="col_30">
+              <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero et cum perspiciatis asperiores
+                veritatis aspernatur, esse nobis ea facilis distinctio id tenetur dignissimos dolore pariatur
+                exercitationem praesentium aperiam voluptatibus facere? </div>
+              <button class="button_big button_1_blue">Inizia la tua prova gratuita</button>
+              <div>Annulla in qualsiasi momento</div>
+              <div><i class="fa-solid fa-arrow-down"></i></div>
             </div>
-        </div>
-      </section>
 
-      
+            <div class="col_70">
+              <div class="relative_position">
+                <img class="resize_pics" src="./img/jumbo.png" alt="home_pic">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION TWO -->
+
     <section class="section_2">
-        <div class="container_small">
+      <div class="container_small">
 
-            <h2>Trova il piano business che fa per te</h2>
-            <span>
-                <input type="radio" name="billing"> Fatturazione mensile 
-            </span>
-            
-            <span> 
-                 <input type="radio" name="billing"> Fatturazione annuale 
-            </span>
+        <h2>Trova il piano business che fa per te</h2>
+        <span class="input_span">
+          <input type="radio" name="billing"> Fatturazione mensile
+        </span>
 
+        <span class="input_span">
+          <input type="radio" name="billing"> Fatturazione annuale
+        </span>
+
+        <!-- COLUMNS-33 SECTION TWO -->
+
+        <div class="container_flex">
+
+          <div class="col_33">
+            <!-- start of card -->
+            <div>
+              <i></i>
+              <span></span>
+            </div>
+            <!-- title, price, info card -->
+            <div class=" column_flex container_flex">
+              <h3>A</h3>
+              <div>A</div>
+              <div>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+              <button>A</button>
+              <div>
+                <span>A</span> <a href="">A</a>
+              </div>
+              <hr>
+              <div>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+            </div>
+          </div>
+
+          <div class="col_33">
+            <!-- start of card -->
+            <div>
+              <i></i>
+              <span></span>
+            </div>
+            <!-- title, price, info card -->
+            <div class=" column_flex container_flex">
+              <h3>A</h3>
+              <div>A</div>
+              <div>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+              <button>A</button>
+              <div>
+                <span>A</span> <a href="">A</a>
+              </div>
+              <hr>
+              <div>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+            </div>
+          </div>
+
+          <div class="col_33">
+            <!-- start of card -->
+            <div>
+              <i></i>
+              <span></span>
+            </div>
+            <!-- title, price, info card -->
+            <div class=" column_flex container_flex">
+              <h3>A</h3>
+              <div>A</div>
+              <div>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+              <button>A</button>
+              <div>
+                <span>A</span> <a href="">A</a>
+              </div>
+              <hr>
+              <div>A</div>
+              <div><i>A</i>A</div>
+              <div><i>A</i>A</div>
+            </div>
+          </div>
 
         </div>
+      </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-        
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
+  </main>
 
 </body>
+
 </html>

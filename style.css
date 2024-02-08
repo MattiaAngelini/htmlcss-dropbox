@@ -63,6 +63,7 @@ body {
     max-width: 1000px;
     margin: auto;
 }
+
 .container_flex {
     display: flex;
 }
@@ -132,10 +133,15 @@ header img {
 -------------------*/
 
  #Title_page {
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 800;
     justify-content: center;
     padding:30px 0;
+    margin-top: 40px;
+ }
+
+ .section_1 .col_30 {
+    margin-top: 30px;
  }
 
  .section_1 .col_30 *{
@@ -149,11 +155,11 @@ header img {
 }
 
 .section_1 .relative_position {
-     top: 40px;
+     top: 30px;
 }
  
 /*-------------------
-    SECTION 1
+    SECTION 
 -------------------*/
    
 .section_2 {
@@ -161,14 +167,19 @@ header img {
 }
 
 .section_2 h2 {
-    padding: 30px;
+    padding-bottom: 30px;
     font-size: 30px;
 }
 
-.section_2 span {
-    margin-right: 40px;
-
+.section_2 .input_span {
+    margin: 0 40px 0 0;
 }
 
+.section_2 .col_33{
+    display: flex;
+    margin-top: 40px;
+}
 
-
+.section_2 .container_flex {
+    width: 100%;
+}
