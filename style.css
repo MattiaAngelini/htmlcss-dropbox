@@ -79,6 +79,10 @@ body {
     width: 70%;
 }
 
+.col_33 {
+    width: calc(100% / 3);
+}
+
 /*-------------------
       UTILITIES
 -------------------*/
@@ -103,8 +107,7 @@ header  {
     width: 100%;
     display: flex;
     padding: 18px;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 header nav {
@@ -149,3 +152,23 @@ header img {
      top: 40px;
 }
  
+/*-------------------
+    SECTION 1
+-------------------*/
+   
+.section_2 {
+    margin-top: 100px;
+}
+
+.section_2 h2 {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.section_2 span {
+    margin-right: 40px;
+
+}
+
+
+
