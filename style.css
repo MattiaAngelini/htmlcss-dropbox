@@ -12,13 +12,15 @@
 -------------------*/
 
   .button_big {
-    padding: 6px 30px;
+    padding: 3px 30px;
     border: none;
   }
 
   .button_small {
-    padding: 6px 16px;
+    max-height: 30px;
     border: none;
+    margin-top: 15px;
+    padding: 0
   }
   
   .button_1_blue {
@@ -42,3 +44,31 @@
     color: black;
     border: 1px solid black;
   }
+
+/*-------------------
+       HEADER
+-------------------*/
+
+header  {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+li, .logo_header {
+    padding: 20px;
+}
+
+
+
+/*-------------------
+    GRID LAYOUT
+-------------------*/
