@@ -17,34 +17,34 @@ body {
       BUTTONS
 -------------------*/
 
-.button_big {
+.btn_big {
     padding: 10px;
     border: none;
 }
 
-.button_small {
-    margin: 12px 0;
-    padding: 0 14px;
+.btn_small {
+    
+    padding: 6px;
     border: none
 }
   
-.button_1_blue {
+.btn_1_blue {
     background-color: #0061ff;
     color: white;
 }
   
-.button_2_blue {
+.btn_2_blue {
     background-color: #0061ff;
     color: white;
     border: none;
 }
 
-.button-1-white {
+.btn-1-white {
     background-color: white;
     color: black;
 }
   
-.button-2-white {
+.btn-2-white {
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -142,9 +142,9 @@ header img {
 
  .section_1 .col_30 {
     margin-top: 30px;
- }
+}
 
- .section_1 .col_30 *{
+.section_1 .col_30 *{
    margin-bottom: 30px;
 }
 
@@ -181,5 +181,7 @@ header img {
 }
 
 .section_2 .container_flex {
-    width: 100%;
+    gap: 20px;
 }
+
+
