@@ -99,6 +99,14 @@ body {
 .relative_position {
     position: relative;
 }
+
+.border_container {
+    border: 1px solid black;
+}
+
+.border_bottom {
+    border: 1px solid black;
+}
 /*-------------------
        HEADER
 -------------------*/
@@ -159,7 +167,7 @@ header img {
 }
  
 /*-------------------
-    SECTION 
+    SECTION 2
 -------------------*/
    
 .section_2 {
@@ -178,10 +186,18 @@ header img {
 .section_2 .col_33{
     display: flex;
     margin-top: 40px;
+    width: 100%;
 }
 
 .section_2 .container_flex {
     gap: 20px;
+    width: 100%;
 }
+
+.section_2 .col_33 button {
+    margin: 0 30px;
+}
+
+
 
 
