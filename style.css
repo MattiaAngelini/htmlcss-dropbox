@@ -7,42 +7,71 @@
     box-sizing: border-box;
 }
 
+body {font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      font-style: normal; }
+
 /*-------------------
       BUTTONS
 -------------------*/
 
-  .button_big {
+.button_big {
     padding: 0px 30px;
     border: none;
-  }
+}
 
-  .button_small {
-    margin: 8px 0;
-    padding: 0 16px;
+.button_small {
+    margin: 12px 0;
+    padding: 0 14px;
     border: none
-  }
+}
   
-  .button_1_blue {
+.button_1_blue {
     background-color: blue;
     color: white;
-  }
+}
   
-  .button_2_blue {
+.button_2_blue {
     background-color: blue;
     color: white;
     border: none;
-  }
+}
 
-  .button-1-white {
+.button-1-white {
     background-color: white;
     color: black;
-  }
+}
   
-  .button-2-white {
+.button-2-white {
     background-color: white;
     color: black;
     border: 1px solid black;
-  }
+}
+
+/*-------------------
+    GRID LAYOUT
+-------------------*/
+
+.container_big {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container_small {
+    max-width: 1000px;
+    margin: auto;
+}
+.container_flex {
+    display: flex;
+}
+
+/*-------------------
+      UTILITIES
+-------------------*/
+
+.blue_wrap {
+    background-color: #b4d0e7;
+}
 
 /*-------------------
        HEADER
@@ -54,10 +83,7 @@ header  {
     display: flex;
     padding: 18px;
     justify-content: space-between;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal; 
-    position: fixed;
+    
 }
 
 header nav {
@@ -78,5 +104,14 @@ header li {
 }
 
 /*-------------------
-    GRID LAYOUT
+    SECTION 1
 -------------------*/
+
+main section:first-child {
+    justify-content: center;
+}
+
+ #Title_page {
+    font-size: 80px;
+    font-weight: 800;
+ }
