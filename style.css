@@ -12,15 +12,14 @@
 -------------------*/
 
   .button_big {
-    padding: 3px 30px;
+    padding: 0px 30px;
     border: none;
   }
 
   .button_small {
-    max-height: 30px;
-    border: none;
-    margin-top: 15px;
-    padding: 0
+    margin: 8px 0;
+    padding: 0 16px;
+    border: none
   }
   
   .button_1_blue {
@@ -50,8 +49,15 @@
 -------------------*/
 
 header  {
+    background-color: white;
+    width: 100%;
     display: flex;
+    padding: 18px;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    position: fixed;
 }
 
 header nav {
@@ -63,11 +69,13 @@ header ul {
     list-style: none;
 }
 
-li, .logo_header {
-    padding: 20px;
+header li {
+    padding: 18px 22px;
 }
 
-
+ img {
+    padding-top: 14px;
+}
 
 /*-------------------
     GRID LAYOUT
