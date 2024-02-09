@@ -318,3 +318,25 @@ header button {
 .section_4 button {
     padding: 10px;
 }
+
+/*-------------------
+    SECTION 5
+-------------------*/
+
+
+.section_5 {
+    margin-top: 140px;
+}
+
+.section_5 h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+
+}
+
+
+
+
+.section_5 img {
+    width: 100%;
+}
