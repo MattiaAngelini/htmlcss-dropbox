@@ -93,7 +93,7 @@ body {
 
 .resize_pics {
     width: 100%;
-}
+} 
 
 .relative_position {
     position: relative;
@@ -240,7 +240,7 @@ header button {
     margin-right: 6px;
 }
 
-.section_2 button {
+.section_2 .btn_small {
     padding: 10px;
     width: 100%;
 }
@@ -264,3 +264,12 @@ header button {
 /*-------------------
     SECTION 3
 -------------------*/
+
+.section_3 {
+    margin-top: 40px;
+    border: 2px solid #d0d0d3;
+}
+
+.section_3 .container_flex {
+    justify-content: space-between;
+}
