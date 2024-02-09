@@ -104,12 +104,15 @@ body {
 }
 
 .border_bottom {
-    border-bottom: 2px solid #d0d0d3;
-    
+    border-bottom: 2px solid #d0d0d3; 
 }
 
 .align_center {
     text-align: center;
+}
+
+.text_grey {
+    color: #6b7274;
 }
 
 
@@ -201,44 +204,44 @@ header button {
 
 /*-------------------
   SECTION 2 - CARDS
--------------------*/
-   
+-------------------*/ 
 
 .section_2 .col_33{
-    margin: 40px 10px 0 0;
-}
-
-.section_2 .col_33 ul{
-    flex-direction: column;  
-}
-
-.section_2 .item_button{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.section_2 h3 {
-    margin-top: 20px;
-}
-
-.section_2 .card_elements {
-    margin: 20px;
-}
-
-.section_2 .card_elements * {
-    padding: 8px 0;
-    margin: 0 4px; 
+    margin: 40px 40px 0 0;
 }
 
 .section_2 .headcard {
     padding: 10px;
 }
 
+.section_2 li {
+    min-height: 60px;
+}
+
+.section_2 .card_elements {
+    padding: 20px;  
+}
+
+.section_2 .container_elements {
+    margin: 40px 0;       
+}
+
+.section_2 .first_element_card * {
+    padding: 8px;
+}
+
+
+.section_2 button{    
+    padding: 10px;
+    width: 100%;
+}
+
+.section_2 h3 {
+    margin-top: 20px;
+}
 
 .fa-check {color: #0061ff;
 }
-
 
 /*-------------------
     SECTION 3
