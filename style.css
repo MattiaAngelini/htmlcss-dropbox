@@ -23,16 +23,15 @@ body {
 }
 
 .btn_small {
-    
     padding: 6px;
-    border: none
+    border: none;
 }
-  
+
 .btn_1_blue {
     background-color: #0061ff;
     color: white;
 }
-  
+
 .btn_2_blue {
     background-color: #0061ff;
     color: white;
@@ -43,7 +42,7 @@ body {
     background-color: white;
     color: black;
 }
-  
+
 .btn-2-white {
     background-color: white;
     color: black;
@@ -73,7 +72,7 @@ body {
 }
 
 .col_30 {
-    width: 30%; 
+    width: 30%;
 }
 
 .col_70 {
@@ -92,7 +91,8 @@ body {
     background-color: #b4d0e7;
 }
 
-.resize_pics {width: 100%;          
+.resize_pics {
+    width: 100%;
 }
 
 .relative_position {
@@ -104,7 +104,7 @@ body {
 }
 
 .border_bottom {
-    border-bottom: 2px solid #d0d0d3; 
+    border-bottom: 2px solid #d0d0d3;
 }
 
 .align_center {
@@ -115,19 +115,20 @@ body {
     color: #6b7274;
 }
 
+ul {
+    list-style-type: none;
+}
 
-
-ul {list-style-type: none;}
 /*-------------------
        HEADER
 -------------------*/
 
-header  {
+header {
     background-color: white;
     width: 100%;
     display: flex;
     padding: 18px;
-    justify-content: space-between;   
+    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -149,6 +150,7 @@ header li {
 header img {
     padding-top: 14px;
 }
+
 header button {
     height: 30px;
     width: 60px;
@@ -160,19 +162,19 @@ header button {
     SECTION 1
 -------------------*/
 
- #Title_page {
+#Title_page {
     font-size: 66px;
     font-weight: 800;
     justify-content: center;
     margin-top: 60px;
- }
+}
 
- .section_1 .col_30 {
+.section_1 .col_30 {
     margin-top: 30px;
 }
 
-.section_1 .col_30 *{
-   margin-bottom: 20px;
+.section_1 .col_30 * {
+    margin-bottom: 20px;
 }
 
 .section_1 .col_30 i {
@@ -182,13 +184,13 @@ header button {
 }
 
 .section_1 .relative_position {
-     top: 30px;
+    top: 30px;
 }
- 
+
 /*-------------------
   SECTION 2
 -------------------*/
-   
+
 .section_2 {
     margin-top: 100px;
 }
@@ -204,10 +206,10 @@ header button {
 
 /*-------------------
   SECTION 2 - CARDS
--------------------*/ 
+-------------------*/
 
-.section_2 .col_33{
-    margin: 40px 40px 0 0;
+.section_2 .col_33 {
+    margin: 40px 30px 0 0;
 }
 
 .section_2 .headcard {
@@ -219,19 +221,26 @@ header button {
 }
 
 .section_2 .card_elements {
-    padding: 20px;  
+    padding: 20px;
 }
 
 .section_2 .container_elements {
-    margin: 40px 0;       
+    margin: 40px 0;
 }
 
 .section_2 .first_element_card * {
     padding: 8px;
 }
 
+.section_2 ul li {
+    display: flex;
+}
 
-.section_2 button{    
+.section_2 ul i {
+    margin-right: 6px;
+}
+
+.section_2 button {
     padding: 10px;
     width: 100%;
 }
@@ -240,7 +249,16 @@ header button {
     margin-top: 20px;
 }
 
-.fa-check {color: #0061ff;
+.section_2 hr {
+    width: 30%;
+}
+
+.section_2 h4 {
+    margin: 20px;
+}
+
+.fa-check {
+    color: #0061ff;
 }
 
 /*-------------------
