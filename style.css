@@ -295,5 +295,26 @@ header button {
     height: 40px;
     width: 220px;
     margin: 40px 40px 0 0;
-};
+}
    
+
+/*-------------------
+    SECTION 4
+-------------------*/
+
+.section_4 {
+    margin-top: 140px ;
+}
+
+.section_4 .info_container {
+    width: 45%;
+    padding: 30px;  
+}
+
+.section_4 .info_container * {
+    margin: 20px 0;
+}
+
+.section_4 button {
+    padding: 10px;
+}
