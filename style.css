@@ -100,11 +100,11 @@ body {
 }
 
 .border_container {
-    border: 1px solid black;
+    border: 2px solid #d0d0d3;
 }
 
 .border_bottom {
-    border: 1px solid black;
+    border-bottom: 2px solid #d0d0d3;
     
 }
 
@@ -183,7 +183,7 @@ header button {
 }
  
 /*-------------------
-    SECTION 2
+  SECTION 2
 -------------------*/
    
 .section_2 {
@@ -199,21 +199,46 @@ header button {
     margin: 0 40px 0 0;
 }
 
+/*-------------------
+  SECTION 2 - CARDS
+-------------------*/
+   
+
 .section_2 .col_33{
+    margin: 40px 10px 0 0;
+}
+
+.section_2 .col_33 ul{
+    flex-direction: column;  
+}
+
+.section_2 .item_button{
     display: flex;
-    margin-top: 40px;
     justify-content: center;
-    margin: 10px;
+    
 }
 
-/*
-.col_33 not:last-child {
-    margin: 10px;
-}  ????? */
-
-.elements * {
-    padding: 6px; 
+.section_2 h3 {
+    margin-top: 20px;
 }
+
+.section_2 .card_elements {
+    margin: 20px;
+}
+
+.section_2 .card_elements * {
+    padding: 8px 0;
+    margin: 0 4px; 
+}
+
+.section_2 .headcard {
+    padding: 10px;
+}
+
+
+.fa-check {color: #0061ff;
+}
+
 
 /*-------------------
     SECTION 3
