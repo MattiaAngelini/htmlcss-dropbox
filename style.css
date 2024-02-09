@@ -340,8 +340,6 @@ header button {
     width: 100%;
 }
 
-
-
 /*-------------------
     SECTION 6
 -------------------*/
@@ -353,5 +351,28 @@ header button {
 .section_6 h1 {
     font-size: 40px;
     padding-bottom: 40px;
+}
+
+/*-------------------
+      SECTION 7
+-------------------*/
+.section_7 {
+    margin: 140px 0;
+}
+
+.section_7 .container_flex {
+    flex-wrap: wrap;
+}
+
+.section_7 .img_container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_7 .img_container img {
+    width: 50%;
 }
 
