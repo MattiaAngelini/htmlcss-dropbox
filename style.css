@@ -345,3 +345,13 @@ header button {
 /*-------------------
     SECTION 6
 -------------------*/
+
+.section_6 {
+    margin-top: 140px;
+}
+
+.section_6 h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
