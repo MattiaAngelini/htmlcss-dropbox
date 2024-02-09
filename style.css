@@ -365,7 +365,7 @@ header button {
 }
 
 .section_7 .img_container {
-    height: 100%;
+    height: 203px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -376,3 +376,46 @@ header button {
     width: 50%;
 }
 
+/*-------------------
+ WRAPS SQR SECTION 7
+-------------------*/
+ .green_wrap {
+    background-color: #a2d39b ;
+
+ }
+
+ .rubin_wrap{
+     background-color: #61082b;
+
+ }
+
+ .lightblue_wrap { 
+    background-color: #0093ce;
+
+ }
+
+ .lightred_wrap {
+    background-color: #ff1c1c ;
+
+ }
+
+ .red_wrap {
+    background-color:#d5001f;
+
+ }
+
+ .sky_wrap {
+    background-color: #b4d0e7;
+
+ }
+
+ .blue_wrap {
+    background-color: #0d2481;
+
+ }
+
+ .yellow_wrap {
+    background-color: #ffd830;
+
+ }
+  
