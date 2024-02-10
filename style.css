@@ -373,7 +373,7 @@ header button {
 }
 
 .section_7 .img_container {
-    height: 50%;
+    height: 254px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -386,6 +386,10 @@ header button {
 
 .section_7 hr {
     margin-bottom: 20px;
+}
+
+.section_7 .border_green {
+    border: 16px solid #d1e9cd;
 }
 
 /*-------------------
@@ -408,7 +412,6 @@ MIDDLE COL-SECTION 7
 
 .section_7 .container_elements {
     bottom: 10%;
- 
 }
 
 /*-------------------
@@ -476,8 +479,6 @@ MIDDLE COL-SECTION 7
     height: 40px;
     padding: 10px 60px; 
 }
-
-
 
  /*-------------------
       SECTION 9
