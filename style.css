@@ -41,6 +41,7 @@ body {
 .btn-1-white {
     background-color: white;
     color: black;
+    border: none;
 }
 
 .btn-2-white {
@@ -359,7 +360,7 @@ header button {
       SECTION 7
 -------------------*/
 .section_7 {
-    margin: 140px 0;
+    margin-top: 140px;
     min-height: 400px;
 }
 
@@ -403,7 +404,7 @@ MIDDLE COL-SECTION 7
 
 .section_7 .container_elements {
     bottom: 10%;
-  
+ 
 }
 
 /*-------------------
@@ -449,4 +450,29 @@ MIDDLE COL-SECTION 7
     background-color: #ffd830;
 
  }
+
+ /*-------------------
+ WRAPS SQR SECTION 8
+-------------------*/
+.section_8 {
+    background-color: #b4d0e7;
+}
+
+.section_8 h1 {
+    color: #61082b;
+    font-size: 40px;
+}
+
+.section_8 .container_flex {
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.section_8 button {
+    height: 40px;
+    padding: 10px 60px; 
+}
+
+
+
   
