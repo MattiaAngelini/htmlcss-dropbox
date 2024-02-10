@@ -324,20 +324,22 @@ header button {
 -------------------*/
 
 .section_5 {
-    margin-top: 140px;
-}
-
-.section_5 .col_33 {
-    padding: 20px;
+    margin-top: 140px; 
 }
 
 .section_5 h1 {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-size: 40px;
+    padding: 14px;
+}
+
+.section_5 h3, .section_5 p {
+    padding: 14px;
 }
 
 .section_5 img {
     width: 100%;
+    padding: 14px;
 }
 
 /*-------------------
