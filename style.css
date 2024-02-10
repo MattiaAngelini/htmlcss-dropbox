@@ -270,8 +270,8 @@ header button {
     border: 2px solid #d0d0d3;  
 }
 
-.section_3 h3 {
-   padding: 20px;
+.section_3 h3, .section_3 h4 {
+   padding: 30px;
    margin-bottom: -20px ;
 }
 
@@ -284,7 +284,7 @@ header button {
 }
 
 .section_3 p:last-child  {
-    padding: 20px;
+    padding: 30px;
 }
 
 #txt_section_3 {
@@ -294,7 +294,7 @@ header button {
 .section_3 button.btn_big {
     height: 40px;
     width: 220px;
-    margin: 40px 40px 0 0;
+    margin: 28px 40px 0 0;
 }
    
 
