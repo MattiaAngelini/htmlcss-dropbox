@@ -452,7 +452,7 @@ MIDDLE COL-SECTION 7
  }
 
  /*-------------------
- WRAPS SQR SECTION 8
+      SECTION 8
 -------------------*/
 .section_8 {
     background-color: #b4d0e7;
@@ -474,5 +474,16 @@ MIDDLE COL-SECTION 7
 }
 
 
+ /*-------------------
+      SECTION 9
+-------------------*/
 
-  
+  .section_9 h1 {
+    padding: 100px 0 40px 0;
+  }
+
+  .section_9 .container_flex{
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 2px solid grey;
+  }
