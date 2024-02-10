@@ -358,6 +358,7 @@ header button {
 -------------------*/
 .section_7 {
     margin: 140px 0;
+    min-height: 400px;
 }
 
 .section_7 .container_flex {
@@ -365,7 +366,7 @@ header button {
 }
 
 .section_7 .img_container {
-    height: 203px;
+    height: 50%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -374,6 +375,33 @@ header button {
 
 .section_7 .img_container img {
     width: 50%;
+}
+
+.section_7 hr {
+    margin-bottom: 20px;
+}
+
+/*-------------------
+MIDDLE COL-SECTION 7
+-------------------*/
+
+#container_img_sect_7 {
+    width: 60%;
+    padding: 30px;  
+}
+
+#container_img_sect_7 img {
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.section_7 p, .section_7 figcaption {
+    padding: 30px;
+}
+
+.section_7 .container_elements {
+    bottom: 10%;
+  
 }
 
 /*-------------------
