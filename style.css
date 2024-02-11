@@ -14,9 +14,8 @@ body {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
   
-
 /*-------------------
       BUTTONS
 -------------------*/
@@ -221,8 +220,9 @@ header button {
   SECTION 2 - CARDS
 -------------------*/
 
-.section_2 .col_33 {
-    margin: 40px 30px 0 0;
+.section_2 .container_flex { 
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .section_2 .headcard {
@@ -235,6 +235,7 @@ header button {
 
 .section_2 .card_elements {
     padding: 20px;
+    margin: 0 10px;
 }
 
 .section_2 .container_elements {
@@ -285,21 +286,21 @@ header button {
     border: 2px solid #d0d0d3;  
 }
 
-.section_3 h3{
+.section_3 h3 {
     font-size: 24px;
     margin-bottom: 30px;
 }
 
-.section_3 .container_flex{
+.section_3 .container_flex {
     justify-content: space-between; 
     padding: 30px;  
 }
 
-.section_3 div.border_bottom{
+.section_3 div.border_bottom {
     padding: 10px;
 }
 
-.section_3 p:last-child  {
+.section_3 p:last-child {
     padding: 30px;
 }
 
@@ -446,46 +447,47 @@ header button {
  .green_wrap {
     background-color: #a2d39b ;
 
- }
+}
 
  .rubin_wrap{
      background-color: #61082b;
 
- }
+}
 
  .lightblue_wrap { 
     background-color: #0093ce;
 
- }
+}
 
  .lightred_wrap {
     background-color: #ff1c1c ;
 
- }
+}
 
  .red_wrap {
     background-color:#d5001f;
 
- }
+}
 
  .sky_wrap {
     background-color: #b4d0e7;
 
- }
+}
 
  .blue_wrap {
     background-color: #0d2481;
 
- }
+}
 
  .yellow_wrap {
     background-color: #ffd830;
 
- }
+}
 
  /*-------------------
       SECTION 8
 -------------------*/
+
 .section_8 {
     background-color: #b4d0e7;
 }
@@ -518,7 +520,7 @@ header button {
     font-size: 40px;
 }
 
-.section_9 .container_flex{
+.section_9 .container_flex {
     justify-content: space-between;
     padding: 40px 0;
     border-top: 2px solid grey;
@@ -538,7 +540,7 @@ footer {
     padding: 80px 0 60px 0;
 }
 
-footer .container_flex{
+footer .container_flex {
     justify-content: space-between;
 }
 
