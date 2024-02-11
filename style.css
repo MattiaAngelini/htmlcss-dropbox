@@ -95,6 +95,18 @@ body {
       UTILITIES
 -------------------*/
 
+.margin_top_140 {
+    margin-top: 140px;
+}
+
+.pad_10 {
+    padding: 10px;
+}
+
+.pad_30 {
+    padding: 30px;
+}
+
 .blue1_wrap {
     background-color: #b4d0e7;
 }
@@ -203,10 +215,6 @@ header button {
   SECTION 2
 -------------------*/
 
-.section_2 {
-    margin-top: 100px;
-}
-
 .section_2 h2 {
     padding-bottom: 30px;
     font-size: 40px;
@@ -225,21 +233,16 @@ header button {
     margin-top: 40px;
 }
 
-.section_2 .headcard {
-    padding: 10px;
-}
-
 .section_2 li {
     min-height: 60px;
 }
 
-.section_2 .card_elements {
-    padding: 20px;
-    margin: 0 10px;
+.section_2 .card_elements {   
+    margin: 0 30px;
 }
 
 .section_2 .container_elements {
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .section_2 .first_element_card * {
@@ -260,7 +263,6 @@ header button {
 }
 
 .section_2 .btn_small {
-    padding: 10px;
     width: 100%;
 }
 
@@ -293,15 +295,7 @@ header button {
 
 .section_3 .container_flex {
     justify-content: space-between; 
-    padding: 30px;  
-}
-
-.section_3 div.border_bottom {
-    padding: 10px;
-}
-
-.section_3 p:last-child {
-    padding: 30px;
+      
 }
 
 #txt_section_3 {
@@ -317,18 +311,13 @@ header button {
     SECTION 4
 -------------------*/
 
-.section_4 {
-    margin-top: 140px ;
-}
-
 .section_4 h3 {
     line-height: 28px ;
     font-size: 20px;  
 }
 
 .section_4 .info_container {
-    width: 45%;
-    padding: 30px;  
+    width: 45%; 
     line-height: 20px;
 }
 
@@ -336,17 +325,9 @@ header button {
     margin: 20px 0;
 }
 
-.section_4 button {
-    padding: 10px;
-}
-
 /*-------------------
     SECTION 5
 -------------------*/
-
-.section_5 {
-    margin-top: 140px; 
-}
 
 .section_5 h1 {
     margin-bottom: 60px;
@@ -375,10 +356,6 @@ header button {
     SECTION 6
 -------------------*/
 
-.section_6 {
-    margin-top: 140px;
-}
-
 .section_6 h1 {
     font-size: 40px;
     padding-bottom: 60px;
@@ -388,7 +365,6 @@ header button {
       SECTION 7
 -------------------*/
 .section_7 {
-    margin-top: 140px;
     min-height: 400px;
 }
 
@@ -423,17 +399,12 @@ header button {
 -------------------*/
 
 #container_img_sect_7 {
-    width: 60%;
-    padding: 30px;  
+    width: 60%; 
 }
 
 #container_img_sect_7 img {
     width: 100%;
     padding-bottom:60px;
-}
-
-.section_7 p {
-    padding: 30px;
 }
 
 .section_7 .container_elements {
@@ -511,9 +482,6 @@ header button {
  /*-------------------
       SECTION 9
 -------------------*/
-.section_9 {
-    margin-bottom: 80px;
-}
 
 .section_9 h1 {
     padding: 100px 0 80px 0;
@@ -522,7 +490,7 @@ header button {
 
 .section_9 .container_flex {
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 44px 0;
     border-top: 2px solid grey;
 }
 
