@@ -233,8 +233,14 @@ header button {
     margin-top: 40px;
 }
 
+
+.section_2 .container_flex { 
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
 .section_2 li {
-    min-height: 60px;
+    margin-bottom: 14px;
 }
 
 .section_2 .card_elements {   
@@ -272,7 +278,7 @@ header button {
 }
 
 .section_2 hr {
-    width: 30%;
+    width: 25%;
 }
 
 .fa-check {
@@ -364,16 +370,17 @@ header button {
 /*-------------------
       SECTION 7
 -------------------*/
-.section_7 {
-    min-height: 400px;
+
+.section_7 .col_33 {
+    height: calc(100vw / 3);
+    overflow-y: auto;
 }
 
 .section_7 .container_flex {
     flex-wrap: wrap;
 }
 
-.section_7 .img_container {
-    height: 254px;
+.section_7 .img_container {  
     width: 50%;
     display: flex;
     justify-content: center;
@@ -382,6 +389,7 @@ header button {
 
 .section_7 .img_container img {
     width: 50%;
+    filter: invert(1);
 }
 
 .section_7 hr {
@@ -398,17 +406,13 @@ header button {
  CENTER COL-SECTION 7
 -------------------*/
 
-#container_img_sect_7 {
-    width: 60%; 
-}
-
 #container_img_sect_7 img {
-    width: 100%;
-    padding-bottom:60px;
+    width: 50%;
 }
 
-.section_7 .container_elements {
-    bottom: 10%;
+.section_7 hr {
+    margin-left: 30px;
+    width: 20%;
 }
 
 /*-------------------
@@ -417,42 +421,34 @@ header button {
 
  .green_wrap {
     background-color: #a2d39b ;
-
 }
 
  .rubin_wrap{
      background-color: #61082b;
-
 }
 
  .lightblue_wrap { 
     background-color: #0093ce;
-
 }
 
  .lightred_wrap {
     background-color: #ff1c1c ;
-
 }
 
  .red_wrap {
     background-color:#d5001f;
-
 }
 
  .sky_wrap {
     background-color: #b4d0e7;
-
 }
 
  .blue_wrap {
     background-color: #0d2481;
-
 }
 
  .yellow_wrap {
     background-color: #ffd830;
-
 }
 
  /*-------------------
