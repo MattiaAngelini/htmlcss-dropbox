@@ -494,6 +494,13 @@ header button {
     border-bottom: 2px solid grey;
 }
 
+.fa-chevron-down:hover {
+    transform: rotate(180deg);
+}
+
+
+
+
  /*-------------------
        FOOTER
 -------------------*/
