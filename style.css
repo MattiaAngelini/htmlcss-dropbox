@@ -490,17 +490,38 @@ header button {
     border-top: 2px solid grey;
 }
 
-.section_9 .container_flex:nth-child(4) {
-    border-bottom: 2px solid grey;
+
+
+ /*-------------------
+  SECTION 9 HOVER
+-------------------*/
+.fa-chevron-down:hover {   
+    cursor: pointer;
+    transform: rotate(180deg);  
+}
+         
+.section_9 .container_flex {
+    align-items: center;
+    cursor: pointer;
 }
 
-.fa-chevron-down:hover {
-    transform: rotate(180deg);
+.section_9 .container_flex:last-child {
+    border: 2px solid grey;
 }
 
+.question_faq {
+     display: none;
+}
 
+input[type="checkbox"] {
+    display: none;
+}
 
-
+input[type="checkbox"]:checked + .container_flex + .question_faq {
+        display:inline-block;
+        margin-bottom: 20px;
+}
+  
  /*-------------------
        FOOTER
 -------------------*/
