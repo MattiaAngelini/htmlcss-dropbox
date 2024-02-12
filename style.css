@@ -15,6 +15,8 @@ body {
     font-variation-settings:
       "wdth" 100;
 }
+
+button {cursor: pointer;}
   
 /*-------------------
       BUTTONS
@@ -179,7 +181,7 @@ header button {
 }
 
 /*-------------------
-    SECTION 1
+    MAIN BANNER
 -------------------*/
 
 #Title_page {
@@ -189,95 +191,93 @@ header button {
     margin-top: 60px;
 }
 
-.section_1 p {
+.main_banner p {
     line-height: 20px;
 }
 
-.section_1 .col_30 {
+.main_banner .col_30 {
     margin-top: 30px;
 }
 
-.section_1 .col_30 * {
+.main_banner .col_30 * {
     margin-bottom: 30px;
 }
 
-.section_1 .col_30 i {
+.main_banner .col_30 i {
     font-size: 38px;
     position: absolute;
     bottom: 30px; 
 }
 
-.section_1 .relative_position {
+.main_banner .relative_position {
     top: 30px;
 }
 
 /*-------------------
-  SECTION 2
+      OFFERS
 -------------------*/
-
-.section_2 h2 {
+.offers_section h2 {
     padding-bottom: 30px;
     font-size: 40px;
 }
 
-.section_2 .input_span {
+.offers_section .input_span {
     margin: 0 40px 0 0;
 }
 
-/*-------------------
-  SECTION 2 - CARDS
--------------------*/
+/*------------------------
+  OFFERS SECTION - CARDS
+-------------------------*/
 
-.section_2 .container_flex { 
+.offers_section .container_flex { 
     justify-content: space-between;
     margin-top: 40px;
 }
 
-
-.section_2 .container_flex { 
+.offers_section .container_flex { 
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.section_2 li {
+.offers_section li {
     margin-bottom: 14px;
 }
 
-.section_2 .card_elements {   
+.offers_section .card_elements {   
     margin: 0 30px;
 }
 
-.section_2 .container_elements {
+.offers_section .container_elements {
     margin: 30px 0;
 }
 
-.section_2 .first_element_card * {
+.offers_section .first_element_card * {
     padding: 8px;
 }
 
-.section_2 ul li {
+.offers_section ul li {
     display: flex;
     line-height:20px;
 }
 
-.section_2 ul h4 {
+.offers_section ul h4 {
     margin-bottom: 20px;
 }
 
-.section_2 ul i {
+.offers_section ul i {
     margin-right: 6px;
 }
 
-.section_2 .btn_small {
+.offers_section .btn_small {
     width: 100%;
 }
 
-.section_2 h3 {
+.offers_section h3 {
     margin-top: 20px;
     font-size: 26px;
 }
 
-.section_2 hr {
+.offers_section hr {
     width: 25%;
 }
 
@@ -286,124 +286,122 @@ header button {
 }
 
 /*-------------------
-    SECTION 3
+      CONTACTS
 -------------------*/
 
-.section_3 {
+.contacts_section {
     margin-top: 60px;
     border: 2px solid #d0d0d3;  
 }
 
-.section_3 h3 {
+.contacts_section h3 {
     font-size: 24px;
     margin-bottom: 30px;
 }
 
-.section_3 .container_flex {
+.contacts_section .container_flex {
     justify-content: space-between; 
-      
 }
 
-#txt_section_3 {
+#txt_contacts_section {
     max-width: 70%;
 }
 
-.section_3 button.btn_big {
+.contacts_section button.btn_big {
     height: 40px;
 }
-   
 
 /*-------------------
-    SECTION 4
+      PARTNERS
 -------------------*/
 
-.section_4 h3 {
+.partners_section h3 {
     line-height: 28px ;
     font-size: 20px;  
 }
 
-.section_4 .info_container {
+.partners_section .info_container {
     width: 45%; 
     line-height: 20px;
 }
 
-.section_4 .info_container * {
+.partners_section .info_container * {
     margin: 20px 0;
 }
 
 /*-------------------
-    SECTION 5
+      OPERATIONS
 -------------------*/
-
-.section_5 h1 {
+.operations_section h1 {
     margin-bottom: 60px;
     font-size: 40px;
     padding: 14px;
 }
 
-.section_5 h3,
-.section_5 p,
-.section_5 img {
+.operations_section h3,
+.operations_section p,
+.operations_section img {
     padding: 10px;
 }
-.section_5 img {
+
+.operations_section img {
     width: 100%;  
 }
 
-.section_5 h3 {
+.operations_section h3 {
     line-height: 28px;
-    
 }
-.section_5 p {
+
+.operations_section p {
     line-height: 20px; 
 }
 
 /*-------------------
-    SECTION 6
+     CUSTOMERS
 -------------------*/
 
-.section_6 h1 {
+.customers_section h1 {
     font-size: 40px;
     padding-bottom: 60px;
 }
 
 /*-------------------
-      SECTION 7
+     BRANDS
 -------------------*/
 
-.section_7 .col_33 {
+.brands_section .col_33 {
     height: calc(100vw / 3);
     overflow-y: auto;
 }
 
-.section_7 .container_flex {
+.brands_section .container_flex {
     flex-wrap: wrap;
 }
 
-.section_7 .img_container {  
+.brands_section .img_container {  
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section_7 .img_container img {
+.brands_section .img_container img {
     width: 50%;
     filter: invert(1);
 }
 
-.section_7 hr {
+.brands_section hr {
     margin-bottom: 20px;
     width: 40%;
     border-color: #d0d0d3;  
 }
 
-.section_7 .border_green {
+.brands_section .border_green {
     border: 16px solid #d1e9cd;
 }
 
 /*-------------------
- CENTER COL-SECTION 7
+ CENTER COL- BRANDS
 -------------------*/
 
 #container_img_sect_7 img {
@@ -415,9 +413,9 @@ header button {
     width: 20%;
 }
 
-/*-------------------
- WRAPS SQR SECTION 7
--------------------*/
+/*-----------------------
+  WRAPS BRANDS SECTION 7
+------------------------*/
 
  .green_wrap {
     background-color: #a2d39b ;
@@ -451,61 +449,60 @@ header button {
     background-color: #ffd830;
 }
 
- /*-------------------
-      SECTION 8
+/*-------------------
+      FREE TRIAL
 -------------------*/
 
-.section_8 {
+.freetrial_section {
     background-color: #b4d0e7;
 }
 
-.section_8 h1 {
+.freetrial_section h1 {
     color: #61082b;
     font-size: 38px;
     line-height: 50px;
 }
 
-.section_8 .container_flex {
+.freetrial_section .container_flex {
     justify-content: space-between;
     padding: 100px 0;
 }
 
-.section_8 button {
+.freetrial_section button {
     height: 40px;
     padding: 10px 60px; 
 }
 
- /*-------------------
-      SECTION 9
+/*-------------------
+         FAQ
 -------------------*/
 
-.section_9 h1 {
+.FAQ_section h1 {
     padding: 100px 0 80px 0;
     font-size: 40px;
 }
 
-.section_9 .container_flex {
+.FAQ_section .container_flex {
     justify-content: space-between;
     padding: 44px 0;
     border-top: 2px solid grey;
 }
 
-
-
- /*-------------------
-  SECTION 9 HOVER
+/*-------------------
+  FAQ SECTION HOVER
 -------------------*/
+
 .fa-chevron-down:hover {   
     cursor: pointer;
     transform: rotate(180deg);  
 }
          
-.section_9 .container_flex {
+.FAQ_section .container_flex {
     align-items: center;
     cursor: pointer;
 }
 
-.section_9 .container_flex:last-child {
+.FAQ_section .container_flex:last-child {
     border: 2px solid grey;
 }
 
@@ -518,10 +515,10 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .container_flex + .question_faq {
-        display:inline-block;
-        margin-bottom: 20px;
+    display:inline-block;
+    margin-bottom: 20px;
 }
-  
+
  /*-------------------
        FOOTER
 -------------------*/
